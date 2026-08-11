@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jenitha Iyappan | Resume Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#e8edf5;
+color:#222;
+}
+
+.top{
+background:#062b69;
+color:white;
+padding:10px 6%;
+display:flex;
+justify-content:space-between;
+font-size:14px;
+}
+
+.resume{
+max-width:1100px;
+margin:25px auto;
+background:white;
+display:grid;
+grid-template-columns:30% 70%;
+box-shadow:0 5px 25px #999;
+}
+
+/* LEFT */
+
+.left{
+background:#062b69;
+color:white;
+padding:30px 25px;
+}
+
+.profile{
+text-align:center;
+margin-bottom:30px;
+}
+
+.profile-icon{
+width:80px;
+height:80px;
+background:white;
+color:#062b69;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:auto;
+font-size:35px;
+}
+
+.profile h1{
+font-size:22px;
+margin-top:15px;
+}
+
+.profile h3{
+font-size:14px;
+letter-spacing:3px;
+margin-top:5px;
+}
+
+.left-section{
+margin-top:28px;
+}
+
+.left-section h2{
+font-size:19px;
+border-bottom:2px solid white;
+padding-bottom:5px;
+margin-bottom:12px;
+}
+
+.left-section p{
+font-size:14px;
+margin:12px 0;
+}
+
+.left-section ul{
+list-style:none;
+}
+
+.left-section li{
+font-size:14px;
+margin:8px 0;
+padding-left:15px;
+}
+
+.left-section li::before{
+content:"•";
+margin-right:8px;
+}
+
+/* RIGHT */
+
+.right{
+padding:40px;
+}
+
+.header{
+text-align:center;
+margin-bottom:25px;
+}
+
+.header h1{
+color:#062b69;
+font-size:43px;
+letter-spacing:2px;
+}
+
+.header h2{
+font-size:17px;
+letter-spacing:5px;
+margin-top:5px;
+}
+
+.section{
+margin-top:28px;
+}
+
+.title{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.icon{
+width:45px;
+height:45px;
+border-radius:50%;
+background:#062b69;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:20px;
+}
+
+.title h2{
+color:#062b69;
+font-size:21px;
+border-bottom:2px solid #062b69;
+flex:1;
+padding-bottom:5px;
+}
+
+.section-content{
+margin:14px 0 0 57px;
+font-size:14px;
+}
+
+.item{
+margin-bottom:18px;
+}
+
+.item h3{
+font-size:16px;
+margin-bottom:5px;
+}
+
+.item p{
+margin:3px 0;
+}
+
+.item ul{
+padding-left:20px;
+margin-top:6px;
+}
+
+.item li{
+margin:5px 0;
+}
+
+.signature{
+text-align:right;
+margin-top:20px;
+}
+
+.signature strong{
+color:#062b69;
+font-size:17px;
+}
+
+/* BUTTON */
+
+.buttons{
+text-align:center;
+margin-top:30px;
+}
+
+button{
+background:#062b69;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:5px;
+cursor:pointer;
+margin:5px;
+}
+
+button:hover{
+background:#174e9f;
+}
+
+/* MOBILE */
+
+@media(max-width:800px){
+
+.resume{
+grid-template-columns:1fr;
+margin:0;
+}
+
+.right{
+padding:25px 18px;
+}
+
+.header h1{
+font-size:30px;
+}
+
+.header h2{
+font-size:13px;
+}
+
+.section-content{
+margin-left:0;
+}
+
+.top{
+font-size:11px;
+padding:8px 12px;
+}
+}
+
+/* PRINT */
+
+@media print{
+
+body{
+background:white;
+}
+
+.top,
+.buttons{
+display:none;
+}
+
+.resume{
+margin:0;
+box-shadow:none;
+max-width:none;
+}
+
+.left{
+-webkit-print-color-adjust:exact;
+print-color-adjust:exact;
+}
+
+}
+</style>
+</head>
+
+
+<body>
+
+<!-- DATE & TIME -->
+
+<div class="top">
+
+<span>
+📅 <span id="date">Loading...</span>
+</span>
+
+<span>
+🕐 <span id="time">Loading...</span>
+</span>
+
+</div>
+
+
+<div class="resume">
+
+<!-- ================= LEFT ================= -->
+
+<div class="left">
+
+<div class="profile">
+
+<div class="profile-icon">
+👤
+</div>
+
+<h1>JENITHA IYAPPAN</h1>
+
+<h3>BCA STUDENT</h3>
+
+</div>
+
+
+<!-- CONTACT -->
+
+<div class="left-section">
+
+<h2>CONTACT</h2>
+
+<p>📞 +91-9361698308</p>
+
+<p>✉️ jenithaiij@gmail.com</p>
+
+<p>
+📍 Panruti, Cuddalore District,
+Tamil Nadu
+</p>
+
+</div>
+
+
+<!-- SKILLS -->
+
+<div class="left-section">
+
+<h2>SKILLS</h2>
+
+<ul>
+
+<li>HTML</li>
+
+<li>JavaScript</li>
+
+<li>Microsoft Word</li>
+
+<li>Microsoft Excel</li>
+
+</ul>
+
+</div>
+
+
+<!-- SOFT SKILLS -->
+
+<div class="left-section">
+
+<h2>SOFT SKILLS</h2>
+
+<ul>
+
+<li>Quick Learner</li>
+
+<li>Good Communication</li>
+
+<li>Team Player</li>
+
+<li>Time Management</li>
+
+<li>Problem Solving</li>
+
+<li>Positive Attitude</li>
+
+</ul>
+
+</div>
+
+
+<!-- LANGUAGES -->
+
+<div class="left-section">
+
+<h2>LANGUAGES</h2>
+
+<ul>
+
+<li>Tamil</li>
+
+<li>English</li>
+
+</ul>
+
+</div>
+
+
+<!-- HOBBIES -->
+
+<div class="left-section">
+
+<h2>HOBBIES</h2>
+
+<ul>
+
+<li>Listening to Music</li>
+
+<li>Reading Books</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<!-- ================= RIGHT ================= -->
+
+<div class="right">
+
+
+<div class="header">
+
+<h1>JENITHA IYAPPAN</h1>
+
+<h2>BCA STUDENT</h2>
+
+</div>
+
+
+<!-- CAREER OBJECTIVE -->
+
+<div class="section">
+
+<div class="title">
+
+<div class="icon">👤</div>
+
+<h2>CAREER OBJECTIVE</h2>
+
+</div>
+
+<div class="section-content">
+
+<p>
+A dedicated and enthusiastic Bachelor of
+Computer Applications (BCA) student with a
+strong interest in web development and
+software programming. Eager to learn new
+technologies, gain practical experience,
+and contribute effectively to the success
+of an organization while continuously
+improving my technical and professional
+skills.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- EDUCATION -->
+
+<div class="section">
+
+<div class="title">
+
+<div class="icon">🎓</div>
+
+<h2>EDUCATION</h2>
+
+</div>
+
+<div class="section-content">
+
+<div class="item">
+
+<h3>
+Bachelor of Computer Applications
+(BCA)
+</h3>
+
+<p>
+Theivanai Ammal College for Women
+(TACW)
+</p>
+
+<p>
+Currently Pursuing – Second Year
+</p>
+
+</div>
+
+
+<div class="item">
+
+<h3>
+Higher Secondary (12th Standard)
+</h3>
+
+<p>
+St. Annes Matric Higher Secondary
+School, Panruti
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- INTERNSHIP -->
+
+<div class="section">
+
+<div class="title">
+
+<div class="icon">💼</div>
+
+<h2>INTERNSHIP</h2>
+
+</div>
+
+<div class="section-content">
+
+<div class="item">
+
+<h3>
+Thooya Vortex Pvt. Ltd., Puducherry
+</h3>
+
+<ul>
+
+<li>
+Learned the fundamentals of Web
+Development.
+</li>
+
+<li>
+Worked with HTML, CSS, JavaScript,
+and PHP.
+</li>
+
+<li>
+Gained hands-on experience by
+developing web applications.
+</li>
+
+<li>
+Improved teamwork and communication
+skills.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PROJECT -->
+
+<div class="section">
+
+<div class="title">
+
+<div class="icon">💻</div>
+
+<h2>PROJECT</h2>
+
+</div>
+
+<div class="section-content">
+
+<div class="item">
+
+<h3>
+Dynamic Resume Portfolio Website
+</h3>
+
+<ul>
+
+<li>
+Developed a responsive personal
+portfolio website.
+</li>
+
+<li>
+Implemented dynamic content using
+PHP and MySQL.
+</li>
+
+<li>
+Designed a user-friendly interface
+with HTML and CSS.
+</li>
+
+<li>
+Added interactive features using
+JavaScript.
+</li>
+
+<li>
+Created an admin panel to update
+profile information dynamically.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CERTIFICATIONS -->
+
+<div class="section">
+
+<div class="title">
+
+<div class="icon">🏆</div>
+
+<h2>CERTIFICATIONS</h2>
+
+</div>
+
+<div class="section-content">
+
+<ul>
+
+<li>
+Cisco HTML Essentials
+</li>
+
+<li>
+Cisco Basics of Data Structures
+and Algorithms
+</li>
+
+<li>
+Web Development Internship Certificate
+– Thooya Vortex Pvt. Ltd.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<!-- DECLARATION -->
+
+<div class="section">
+
+<div class="title">
+
+<div class="icon">✍️</div>
+
+<h2>DECLARATION</h2>
+
+</div>
+
+<div class="section-content">
+
+<p>
+I hereby declare that the above information
+is true and correct to the best of my
+knowledge and belief.
+</p>
+
+
+<div class="signature">
+
+<p>Place: Panruti</p>
+
+<p>
+Date:
+<span id="declarationDate"></span>
+</p>
+
+<br>
+
+<strong>
+JENITHA IYAPPAN
+</strong>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="buttons">
+
+<button onclick="window.print()">
+🖨️ Print / Save PDF
+</button>
+
+<button onclick="location.reload()">
+🔄 Refresh
+</button>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+function updateDateTime(){
+
+const now = new Date();
+
+
+/* DATE */
+
+const date =
+now.toLocaleDateString(
+"en-IN",
+{
+day:"2-digit",
+month:"long",
+year:"numeric"
+}
+);
+
+
+/* TIME */
+
+const time =
+now.toLocaleTimeString(
+"en-IN",
+{
+hour:"2-digit",
+minute:"2-digit",
+second:"2-digit",
+hour12:true
+}
+);
+
+
+document.getElementById("date")
+.textContent = date;
+
+
+document.getElementById("time")
+.textContent = time;
+
+
+document.getElementById("declarationDate")
+.textContent = date;
+
+}
+
+
+/* FIRST LOAD */
+
+updateDateTime();
+
+
+/* EVERY 1 SECOND */
+
+setInterval(
+updateDateTime,
+1000
+);
+
+</script>
+
+</body>
+</html>
